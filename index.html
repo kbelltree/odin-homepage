@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage / The Odin Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="slope-backdrop"></div>
+        <div class="container hero--large container--large">
+            <div class="hero-frame">
+                <h1><span>keiko</span> <span>suzuki</span></h1>
+                <img 
+                    srcset="
+                        https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_220,h_360/f_auto,q_auto/v1733886918/kbelltree-headshot-all-rights-reserved-2-2_h1zvvh.jpg 220w, 
+                        https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_405,w_405/f_auto,q_auto/v1733886918/kbelltree-headshot-all-rights-reserved-2-2_h1zvvh.jpg 405w,
+                        https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_415,h_445/f_auto,q_auto/v1733886918/kbelltree-headshot-all-rights-reserved-2-2_h1zvvh.jpg 500w,
+                        "
+                    sizes="
+                        (max-width: 649px) 220px,
+                        (max-width: 899px) 405px,
+                        415px
+                        "
+                    src="https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_220/f_auto,q_auto/v1733886918/kbelltree-headshot-all-rights-reserved-2-2_h1zvvh.jpg" 
+                    alt="">
+            </div>
+            <section class="hero-about">
+                <div class="texts-wrapper">
+                    <h2>about me</h2>
+                    <p>Hi! I’m Keiko (KAY-Koh), originally from Japan and now in the USA. I began learning front-end development in Fall 2022 through <a href="https://www.theodinproject.com/" target="_blank" aria-label="The Odin Project page (opens in a new window)"><em>The Odin Project</em></a>. This portfolio highlights my skills in HTML, CSS, JavaScript, basic Git, and Webpack. With my background in paper collage art, I love blending creativity and functionality, and I’m excited to keep growing as a developer.</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/kbelltree" target="_blank" aria-label="Github profile page (opens in a new window)" class="social-icons-svg github"></a>
+                        <a href="" target="_blank" aria-label="Linkedin profile page (opens in a new window)" class="social-icons-svg linkedin"></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <main>  
+        <section class="showcase container container--large">
+            <h2>my work</h2>
+            <div class="showcase--grid">
+
+                <article class="project">
+                    <div class="project-image">
+                        <!-- large, medium 385 x 257, small 582 x 393  -->
+                         <!-- Because the a href link attached to img and h3 are the same, skip this from tab / reader in imag so only recognized once at h3 -->
+                        <a href="https://kbelltree.github.io/odin-battleship/" target="_blank" aria-hidden="true" tabindex="-1">
+                            <img
+                                srcset="
+                                    https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_582/f_auto,q_auto/v1733702085/battleship-small-582w-k-belltree-2024_xf0g8m.jpg 582w,
+                                    https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_385/f_auto,q_auto/v1733702085/battleship-small-582w-k-belltree-2024_xf0g8m.jpg 385w
+                                    "
+                                sizes="
+                                    (max-width: 649px) 582px,
+                                    385px
+                                    "
+                                src="https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_385/f_auto,q_auto/v1733702085/battleship-small-582w-k-belltree-2024_xf0g8m.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-heading">
+                            <h3><a href="https://kbelltree.github.io/odin-battleship/" target="_blank" aria-label='Battleship game page(opens in a new window)'>battleship game</a></h3>
+                            <a href="https://github.com/kbelltree/odin-battleship" class="project-link-svg github" target="_blank" aria-label="Battleship game Github repository page (opens in a new window)"></a>
+                        </div>
+                        <p>This desktop browser-based game showcases my understanding of Test-Driven Development (TDD) and the implementation of pure functions.</p>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <div class="project-image">
+                        <a href="https://kbelltree.github.io/odin-weather-app/" target="_blank" aria-hidden="true" tabindex="-1">
+                            <img
+                                srcset="
+                                    https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_582/f_auto,q_auto/v1733965750/weather-app-small-582w-k-belltree-2024_kdm0bl.jpg 582w,
+                                    https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_385/f_auto,q_auto/v1733965750/weather-app-small-582w-k-belltree-2024_kdm0bl.jpg 385w
+                                    "
+                                sizes="
+                                    (max-width: 649px) 582px,
+                                    385px
+                                    "
+                                src=" https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_385/f_auto,q_auto/v1733965750/weather-app-small-582w-k-belltree-2024_kdm0bl.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-heading">
+                            <h3><a href="https://kbelltree.github.io/odin-weather-app/" target="_blank" aria-label="Weather app page (opens in a new window)">weather app</a></h3>
+                            <a href="https://github.com/kbelltree/odin-weather-app" class="project-link-svg github"  target="_blank" aria-label="Weather app Github repository page (opens in a new window)"></a>
+                        </div>
+                        <p>This Weather App demonstrates my skills in fetching and working with API data, as well as utilizing async and await in JavaScript.</p>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <div class="project-image">
+                        <a href="https://kbelltree.github.io/odin-todo-list/" target="_blank" aria-hidden="true" tabindex="-1">
+                            <img
+                                srcset="
+                                    https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_582/f_auto,q_auto/v1733702085/todo-small-582w-k-belltree-2024_c327jf.jpg 582w,
+                                    https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_385/f_auto,q_auto/v1733702085/todo-small-582w-k-belltree-2024_c327jf.jpg 385w"
+                                sizes="
+                                    (max-width: 649px) 582px,
+                                    385px
+                                    "
+                                src="https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_385/f_auto,q_auto/v1733702085/todo-small-582w-k-belltree-2024_c327jf.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-heading">
+                            <h3><a href="https://kbelltree.github.io/odin-todo-list/" target="_blank" aria-label="Weather app page (opens in a new window)">to-do list</a></h3>
+                            <a href="https://github.com/kbelltree/odin-todo-list" class="project-link-svg github"  target="_blank" aria-label="To-do list Github repository page (opens in a new window)"></a>
+                        </div>
+                        <p>This desktop browser-based application demonstrates my knowledge of JSON data manipulation, object-oriented programming principles, and website development using Webpack.</p>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <div class="project-image">
+                        <a href="https://kbelltree.github.io/image-carousel/" target="_blank" aria-hidden="true" tabindex="-1">
+                            <img
+                                srcset="
+                                https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_582/f_auto,q_auto/v1733702085/image-carousel-small-582w-k-belltree-2024_bj0rth.jpg 582w,
+                                https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_385/f_auto,q_auto/v1733702085/image-carousel-small-582w-k-belltree-2024_bj0rth.jpg 385w
+                                "
+                                sizes="
+                                    (max-width: 649px) 582px,
+                                    385px
+                                    "
+                                src="https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_385/f_auto,q_auto/v1733702085/image-carousel-small-582w-k-belltree-2024_bj0rth.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-heading">
+                            <h3><a href="https://kbelltree.github.io/image-carousel/" target="_blank" aria-label="Image carousel page (opens in a new window)">image carousel</a></h3>
+                            <a href="https://github.com/kbelltree/image-carousel" class="project-link-svg github"  target="_blank" aria-label="Image carousel Github repository page (opens in a new window)"></a>
+                        </div>
+                        <p>This project highlights my understanding of dynamic user interface interactions.</p>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <div class="project-image">
+                        <a href="https://kbelltree.github.io/odin-restaurant-page/" target="_blank" aria-hidden="true" tabindex="-1">
+                            <img
+                                srcset="
+                                    https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_582/f_auto,q_auto/v1733702086/restaurant-page-small-582w-k-belltree-2024_bxfrag.jpg 582w,
+                                    https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_385/f_auto,q_auto/v1733702086/restaurant-page-small-582w-k-belltree-2024_bxfrag.jpg 385w
+                                    "
+                                sizes="
+                                    (max-width: 649px) 582px,
+                                    385px
+                                    "
+                                src="https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_385/f_auto,q_auto/v1733702086/restaurant-page-small-582w-k-belltree-2024_bxfrag.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-heading">
+                            <h3><a href="https://kbelltree.github.io/odin-restaurant-page/" target="_blank" aria-label="Restaurant page (opens in a new window)">restaurant page</a></h3>
+                            <a href="https://github.com/kbelltree/odin-restaurant-page" class="project-link-svg github"  target="_blank" aria-label="Restaurant website Github repository page (opens in a new window)"></a>
+                        </div>
+                        <p>This desktop browser-based website demonstrates my growing proficiency in npm, JavaScript ES6 modules, and website development with Webpack.</p>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <div class="project-image">
+                        <a href="https://kbelltree.github.io/odin-tic-tac-toe/" target="_blank" aria-hidden="true" tabindex="-1">
+                            <img
+                                srcset="
+                                    https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_582/f_auto,q_auto/v1733702085/tictactoe-small-582w-k-belltree-2024_rsz1ip.jpg 582w,
+                                    https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_385/f_auto,q_auto/v1733702085/tictactoe-small-582w-k-belltree-2024_rsz1ip.jpg 385w
+                                    "
+                                sizes="
+                                    (max-width: 649px) 582px,
+                                    385px
+                                    "
+                                src="https://res.cloudinary.com/dhkyvaing/image/upload/c_fill,w_385/f_auto,q_auto/v1733702085/tictactoe-small-582w-k-belltree-2024_rsz1ip.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-heading">
+                            <h3><a href="https://kbelltree.github.io/odin-tic-tac-toe/" target="_blank" aria-label="Tic-tac-toe page (opens in a new window)">tic-tac-toe</a></h3>
+                            <a href="https://github.com/kbelltree/odin-tic-tac-toe" class="project-link-svg github"  target="_blank" aria-label="Tic-tac-toe Github repository page(opens in a new window)"></a>
+                        </div>
+                        <p>This desktop browser-based game illustrates my understanding of factory functions, IIFE modules, scope, and closures.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container--medium container-large">
+            <section class="contact container contact--large">
+                <h2>contact me</h2>
+                <p>The contacts shown below are not real.</p>
+                <address class="contact-details">
+                    <div>        
+                        <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <title>email address</title>
+                            <path d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" /></svg>
+                        <p>info@mockmail.com</p>
+                    </div>
+                    <div>
+                        <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <title>phone</title>
+                            <path d="M17,19H7V5H17M17,1H7C5.89,1 5,1.89 5,3V21A2,2 0 0,0 7,23H17A2,2 0 0,0 19,21V3C19,1.89 18.1,1 17,1Z" /></svg>
+                        <p>123-456-7890</p>
+                    </div>
+                </address>
+                <div class="social-icons">
+                    <a href="https://github.com/kbelltree" target="_blank" aria-label="Github profile page (opens in a new window)" class="social-icons-svg github"></a>
+                    <a href=""  target="_blank" aria-label="Linkedin profile page (opens in a new window)" class="social-icons-svg linkedin"></a>
+                </div>
+             
+                <p class="copyright copyright--medium" aria-label="Copyright and attribution">Logo icons by <a target="_blank" href="https://icons8.com" aria-label="Icons8 website (opens in a new window)">icons8</a>, other icons by <a href="https://pictogrammers.com"  target="_blank" aria-label="Pictogrammers website (opens in a new window)">Pictogrammers</a>, website by <a href="https://github.com/kbelltree" target="_blank" aria-label="Github profile page of Keiko.S (opens in a new window)">Keiko.S</a>, 2024.</p>
+            </section>
+            <div class="footer-img" aria-hidden="true">
+                <!-- large 670 x 502.5, med 347 x 471, s 648 x 879 -->
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
